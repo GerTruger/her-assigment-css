@@ -1,0 +1,170 @@
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  width: 100%;
+  height: 100%;
+  background-color: #c3cfe2;
+  overflow: hidden;
+}
+
+.buttons {
+  position: absolute;
+  width: 70px;
+  text-align: center;
+  top: 30%;
+  right: 0%;
+}
+
+.blog {
+  background-color: #e17b77;
+  position: relative;
+  display: block;
+  height: 75px;
+  color: white;
+  padding: 35%;
+  width: 350px;
+  font-size: 1.2rem;
+}
+
+.blog i {
+  position: absolute;
+  left: 25px;
+  top: 35%;
+  font-size: 1.7rem;
+}
+
+.blog:hover {
+  position: relative;
+  -webkit-animation-name: lucky;
+          animation-name: lucky;
+  -webkit-animation-duration: 3s;
+          animation-duration: 3s;
+}
+
+.twitter {
+  background-color: #00aced;
+  position: relative;
+  display: block;
+  height: 75px;
+  color: white;
+  padding: 35%;
+  width: 350px;
+  font-size: 1.2rem;
+}
+
+.twitter i {
+  position: absolute;
+  left: 25px;
+  top: 35%;
+  font-size: 1.7rem;
+}
+
+.twitter:hover {
+  position: relative;
+  -webkit-animation-name: lucky;
+          animation-name: lucky;
+  -webkit-animation-duration: 3s;
+          animation-duration: 3s;
+}
+
+.linkedin {
+  background-color: #007bb6;
+  position: relative;
+  display: block;
+  height: 75px;
+  color: white;
+  padding: 35%;
+  width: 350px;
+  font-size: 1.2rem;
+}
+
+.linkedin i {
+  position: absolute;
+  left: 25px;
+  top: 35%;
+  font-size: 1.7rem;
+}
+
+.linkedin:hover {
+  position: relative;
+  -webkit-animation-name: lucky;
+          animation-name: lucky;
+  -webkit-animation-duration: 3s;
+          animation-duration: 3s;
+}
+
+.facebook {
+  background-color: #3b5998;
+  position: relative;
+  display: block;
+  height: 75px;
+  color: white;
+  padding: 35%;
+  width: 350px;
+  font-size: 1.2rem;
+}
+
+.facebook i {
+  position: absolute;
+  left: 25px;
+  top: 35%;
+  font-size: 1.7rem;
+}
+
+.facebook:hover {
+  position: relative;
+  -webkit-animation-name: lucky;
+          animation-name: lucky;
+  -webkit-animation-duration: 3s;
+          animation-duration: 3s;
+}
+
+.github {
+  background-color: #333;
+  position: relative;
+  display: block;
+  height: 75px;
+  color: white;
+  padding: 35%;
+  width: 350px;
+  font-size: 1.2rem;
+}
+
+.github i {
+  position: absolute;
+  left: 25px;
+  top: 35%;
+  font-size: 1.7rem;
+}
+
+.github:hover {
+  position: relative;
+  -webkit-animation-name: lucky;
+          animation-name: lucky;
+  -webkit-animation-duration: 3s;
+          animation-duration: 3s;
+}
+
+@-webkit-keyframes lucky {
+  from {
+    right: 0%;
+  }
+  to {
+    right: 250px;
+  }
+}
+
+@keyframes lucky {
+  from {
+    right: 0%;
+  }
+  to {
+    right: 250px;
+  }
+}
+/*# sourceMappingURL=assig3.css.map */

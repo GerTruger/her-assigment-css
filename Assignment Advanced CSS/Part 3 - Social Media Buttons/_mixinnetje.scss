@@ -1,0 +1,22 @@
+@mixin social {
+  position: relative;
+  display: block;
+  height: 75px;
+  color: white;
+  padding: 35%;
+  width: 350px;
+  font-size: 1.2rem;
+
+  i {
+    position: absolute;
+    left: 25px;
+    top: 35%;
+    font-size: 1.7rem;
+  }
+
+  &:hover {
+    position: relative;
+    animation-name: lucky;
+    animation-duration: 3s;
+  }
+}
